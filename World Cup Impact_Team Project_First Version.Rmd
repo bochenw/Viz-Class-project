@@ -148,7 +148,7 @@ There is also the on-going perception that Brazil is a dangerous  country. Howev
 
 ### Finding 3
 
-#### Home advantages on Hosting Country world cup ranking.
+### Home advantages on Hosting Country world cup ranking.
 
 Since the beginning of the World Cup, host countries have produced a better performance when hosting the World Cup compared to their National Soccer Strength Rating in every year apart from 1990. 
 
@@ -162,7 +162,7 @@ Ratings tend to converge on a team's true strength relative to its competitors a
 
 The ratings are based on the following formulas:
 
-##### Rn = Ro + K × (W - We)
+#### Rn = Ro + K × (W - We)
 
 Rn is the new rating, Ro is the old (pre-match) rating.
 K is the weight constant for the tournament played:
@@ -178,20 +178,21 @@ W is the result of the game (1 for a win, 0.5 for a draw, and 0 for a loss).
 
 We is the expected result (win expectancy), either from the chart or the following formula:
 
-##### We = 1 / (10(-dr/400) + 1)
+#### We = 1 / (10(-dr/400) + 1)
 
 dr equals the difference in ratings plus 100 points for a team playing at home.
+(https://www.eloratings.net/about)
 
 **Figure 1.1: **
 
-![](https://github.com/bochenw/first-version-graph/blob/master/World%20Cup%20rank%20Vs.%20World%20Rank.png)
+![](https://github.com/bochenw/first-version-graph/blob/master/1.png)
 [Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/WorldCuprankVsWorldrankforHostCountriesfrom1930to2014/Dashboard1)
 
 We calculated the difference between world cup ranking and world ranking and plot our result into the following figure. The ranking differences between world ranking and world cup ranking for the host countries since 1930 has an average of 8.35. Besides of the number, we observed that the result is very unbalanced, some group of countries only changed in a small range, and other countries changed in a relatively broad range.
 
 **Figure 1.2: **
 
-![](https://github.com/bochenw/first-version-graph/blob/master/Ranking%20Differences%20.png)
+![](https://github.com/bochenw/first-version-graph/blob/master/2.png)
 
 [Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/rankingdifferencesbetweenworldcuprankandelosoccerrating/Dashboard2)
 
@@ -199,21 +200,36 @@ Based on the above analysis, we divided hosting courtiers into two groups: the f
 
 **Figure 1.3: **
 
-![](https://github.com/bochenw/first-version-graph/blob/master/Top%20Ten%20Vs%20not%20differences.png)
+![](https://github.com/bochenw/first-version-graph/blob/master/3.png)
 [Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/ranking10differences/Dashboard3)
 
 The result is unexpected, for the top ten world ranking countries, their ranking difference is minimal, having an average of 1.33, however, for the rest of the countries, their ranking differences has an average of 18.875 difference.
 
 At this point, we already had a partial conclusion that some countries have a significant high hosting advantage. To make our conclusion more convincible, instead of comparing their absolute ranking difference, we created a formula that could calculate the difficulty for those countries to achieve such higher rankings:
 
-##### Difficulty = (World Ranking – World Cup Ranking) / World Cup Ranking
+#### Difficulty = (World Ranking – World Cup Ranking) / World Cup Ranking
 
 The objective of this formula is simple to understand: one country has a world ranking of 50, and it’s rank score increased to 40 in World Cup; another country has a world ranking of 11, and its rank score increased to 1 in World Cup. For those two countries, their score all increased 10, but the difficulty of the increase is different.  By using our formula, we can more precisely check which countries outperform the most. 
 
 **Figure 1.4: **
 
-![](https://github.com/bochenw/first-version-graph/blob/master/Top%2010%20vs%20not%20Difficulty.png)
+![](https://github.com/bochenw/first-version-graph/blob/master/4.png)
 [Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/ranking10difficulty/Dashboard4)
+
+### Conclusion:
+Since the beginning of the World Cup, host countries have produced a better performance when hosting the World Cup compared to their National Soccer Strength Rating in every year apart from 1990. 
+
+Our analysis shows that home country advantage is equivalent to progressing an additional 2 rounds on average, and this pattern is evident in Figure. This home region effect may reflect a mix of stronger home crowd support and common climatic conditions. A European country has never won a World Cup held in the Americas, while only once has a South American country won the World Cup in Europe (Brazil in 1958).
+
+### Sub-finding: 
+
+Korea had outperformed the most during 2002 world cup.
+
+For the group stage, Korea(27)* was in group D, with United States(21), Portugal(8), and Poland(34). Korea(27) beat Portugal(8) during the group stage period. During Knockout stage, Korea first beat Italy(7), then beat Spain(2).
+
+The result looks impossible, the difficulty for a team to reach such achieve is extremely hard. Based on this result, in our future revised version, we will dig deeper, try to obtain the data for Korea soccer statistics before and after 2002, and try to reach a reasonable conclusion. 
+
+*Number inside of the parenthesis represent that country’s Elo Ranking 
 
 ##### Source:
 
