@@ -148,7 +148,7 @@ There is also the on-going perception that Brazil is a dangerous  country. Howev
 
 ### Finding 3
 
-####Home advantages on Hosting Country world cup ranking.
+#### Home advantages on Hosting Country world cup ranking.
 
 Since the beginning of the World Cup, host countries have produced a better performance when hosting the World Cup compared to their National Soccer Strength Rating in every year apart from 1990. 
 
@@ -162,7 +162,7 @@ Ratings tend to converge on a team's true strength relative to its competitors a
 
 The ratings are based on the following formulas:
 
-#####Rn = Ro + K × (W - We)
+##### Rn = Ro + K × (W - We)
 
 Rn is the new rating, Ro is the old (pre-match) rating.
 K is the weight constant for the tournament played:
@@ -178,7 +178,7 @@ W is the result of the game (1 for a win, 0.5 for a draw, and 0 for a loss).
 
 We is the expected result (win expectancy), either from the chart or the following formula:
 
-#####We = 1 / (10(-dr/400) + 1)
+##### We = 1 / (10(-dr/400) + 1)
 
 dr equals the difference in ratings plus 100 points for a team playing at home.
 
@@ -206,7 +206,7 @@ The result is unexpected, for the top ten world ranking countries, their ranking
 
 At this point, we already had a partial conclusion that some countries have a significant high hosting advantage. To make our conclusion more convincible, instead of comparing their absolute ranking difference, we created a formula that could calculate the difficulty for those countries to achieve such higher rankings:
 
-#####Difficulty = (World Ranking – World Cup Ranking) / World Cup Ranking
+##### Difficulty = (World Ranking – World Cup Ranking) / World Cup Ranking
 
 The objective of this formula is simple to understand: one country has a world ranking of 50, and it’s rank score increased to 40 in World Cup; another country has a world ranking of 11, and its rank score increased to 1 in World Cup. For those two countries, their score all increased 10, but the difficulty of the increase is different.  By using our formula, we can more precisely check which countries outperform the most. 
 
@@ -215,12 +215,12 @@ The objective of this formula is simple to understand: one country has a world r
 ![](https://github.com/bochenw/first-version-graph/blob/master/Top%2010%20vs%20not%20Difficulty.png)
 [Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/ranking10difficulty/Dashboard4)
 
-#####Source:
+##### Source:
 
 National Soccer Ranking data is from: http://www.eloratings.net
 World Cup Ranking Data is from: https://www.kaggle.com/abecklas/fifa-world-cup
 
-#####Limitations and Outlook of the Finding 3 
+##### Limitations and Outlook of the Finding 3 
 
 1.Is any other representation better than Bar Chart?
 
