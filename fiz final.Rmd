@@ -118,6 +118,7 @@ The result looks impossible, the difficulty for a team to reach such achieve is 
 
 [Revised Version Addition Data Wrangling Jupyter Link](https://github.com/bochenw/Individua-project/blob/master/korea%20matches.ipynb)
 
+## New Findings and Graphs
 
 **Figure 1.4 Korean Elo Score Vs. World Cup Score**
 ![](https://github.com/bochenw/picture/blob/master/Screen%20Shot%202018-06-14%20at%201.57.12%20PM.png)
@@ -128,14 +129,6 @@ The result looks impossible, the difficulty for a team to reach such achieve is 
 ![](https://github.com/bochenw/picture/blob/master/Screen%20Shot%202018-06-14%20at%201.59.39%20PM.png)
 [Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/winraterank/Dashboard2)
 
-
-
-
-#### Limitations and Outlook:
-
-+ Is any other representation better than Bar Chart?
-+ Can we find any post-influences for these countries? For example, has Korean achieve more success in the following world cups?
-+ 2002 Italy was kicked out, does this incident influence their morale?
 
 ### Finding 2 - Will World Cup Increase the GDP of Host Countries? Probably not!
 
