@@ -120,17 +120,22 @@ The result looks impossible, the difficulty for a team to reach such achieve is 
 
 ## New Findings and Graphs
 
-**Figure 1.4 Korean Elo Score Vs. World Cup Score**
-![](https://github.com/bochenw/picture/blob/master/Screen%20Shot%202018-06-14%20at%201.57.12%20PM.png)
-[Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/KoreaEloScoreVsworldcupscore/Dashboard1)
-
-
-**Figure 1.5 Korean World Cup Match Win Rate**
+**Figure 1.4 Korean World Cup Match Win Rate**
 ![](https://github.com/bochenw/picture/blob/master/Screen%20Shot%202018-06-14%20at%201.59.39%20PM.png)
 [Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/winraterank/Dashboard2)
 
+We used the pie chart to plot out the result for Korean world cup win rate. As we can see from the graph, in history Korea only have a 10%-win rate with the top 10 world ranking opponents, and 19% win rate with rest the opponents. Both win rate is meager, so we can conclude that Korea will typically not considered as a strong soccer nation. 
 
-### Finding 2 - Will World Cup Increase the GDP of Host Countries? Probably not!
+
+**Figure 1.5 Korean Elo Score Vs. World Cup Score**
+![](https://github.com/bochenw/picture/blob/master/Screen%20Shot%202018-06-14%20at%201.57.12%20PM.png)
+[Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/KoreaEloScoreVsworldcupscore/Dashboard1)
+
+We tracked additional data from FIFA world cup website and Elo world soccer rating system. Based on the previous analysis, we found out during 2002 world cup, Korea had outperformed the most. At this time, we focused on Korea and plotted out the Elo Score Vs. World Cup score for Korea from 1990 to 2014. As we can see from the graph, the Elo score and World Cup score have the same trending. The average differences between Elo Score and World Cup score are 14.5; However, during 2002 world cup, the difference is 23. After 2002, we can observe their soccer ranking is keep decreasing. We can conclude from the graph that Korean had a significant home advantage during the world cup 2002. After 2002 the world cup, Korean’s ranking is keeping decreasing, and even worse than before 2002's ranking. So the result from 2002 world cup not helpful for Korea to increase their national soccer performance. 
+
+
+
+## Finding 2 - Will World Cup Increase the GDP of Host Countries? Probably not!
 
 World cup is not only about sports glory, it also influences the economy, we'll focuses on the argument that whether world cup will lead to increase economic activity in the host countries.
 
