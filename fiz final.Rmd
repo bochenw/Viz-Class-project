@@ -113,6 +113,10 @@ The result looks impossible, the difficulty for a team to reach such achieve is 
 
 *Number inside of the parenthesis represent that country’s Elo Ranking 
 
+## Revised Version Addition Data Wrangling for Finding 1
+
+[Revised Version Addition Data Wrangling Jupyter Link](https://github.com/bochenw/Individua-project/blob/master/korea%20matches.ipynb)
+
 ![](https://github.com/bochenw/picture/blob/master/Screen%20Shot%202018-06-14%20at%201.57.12%20PM.png)
 [Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/KoreaEloScoreVsworldcupscore/Dashboard1)
 ![](https://github.com/bochenw/picture/blob/master/Screen%20Shot%202018-06-14%20at%201.59.39%20PM.png)
