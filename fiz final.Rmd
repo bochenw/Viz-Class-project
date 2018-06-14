@@ -74,9 +74,6 @@ We is the expected result (win expectancy), either from the chart or the followi
 
 **Figure 1.1 World Cup Rank vs. World Elo Ratings** 
 
-![](https://github.com/lpyuan/Individual-Project/blob/master/rankDiff.png)
-[Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/WorldCuprankVsWorldrankforHostCountriesfrom1930to2014/Dashboard1)
-
 Original Chart | Revised Version 
 -------------  | ------------- 
 ![](https://github.com/lpyuan/Individual-Project/blob/master/rankDiff.png) | ![](https://github.com/bochenw/picture/blob/master/Screen%20Shot%202018-06-14%20at%201.57.45%20PM.png)|
@@ -84,18 +81,9 @@ Original Chart | Revised Version
 
 We calculated the difference between world cup ranking and world ranking and plot our result into the following figure. The ranking differences between world ranking and world cup ranking for the host countries since 1930 has an average of 8.35. Besides of the number, we observed that the result is very unbalanced, some group of countries only changed in a small range, and other countries changed in a relatively broad range.
 
-**Figure 1.2 Ranking Differences**
-
-![](https://github.com/lpyuan/Individual-Project/blob/master/WorldCupvs.ELO.png)
-
-[Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/rankingdifferencesbetweenworldcuprankandelosoccerrating/Dashboard2)
-
 Based on the above analysis, we divided hosting courtiers into two groups: the first group includes the countries that were rated the top 10 countries by world ranking, another group includes all the countries outside of that top 10 realms.
 
-**Figure 1.3 Top 10 Teams Difference & Ranking>10**
-
-![](https://github.com/lpyuan/Individual-Project/blob/master/Top10Diff.png)
-[Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/ranking10differences/Dashboard3)
+**Figure 1.2 Top 10 Teams Difference & Ranking>10**
 
 Original Chart | Revised Version 
 -------------  | ------------- 
@@ -110,10 +98,7 @@ At this point, we already had a partial conclusion that some countries have a si
 
 The objective of this formula is simple to understand: one country has a world ranking of 50, and it’s rank score increased to 40 in World Cup; another country has a world ranking of 11, and its rank score increased to 1 in World Cup. For those two countries, their score all increased 10, but the difficulty of the increase is different.  By using our formula, we can more precisely check which countries outperform the most. 
 
-**Figure 1.4 Ranking<10 vs.Ranking>10**
-
-![](https://github.com/lpyuan/Individual-Project/blob/master/ranking10.png)
-[Tableau public link](https://public.tableau.com/profile/bochen.wang#!/vizhome/ranking10difficulty/Dashboard4)
+**Figure 1.3 Ranking<10 vs.Ranking>10**
 
 Original Chart | Revised Version 
 -------------  | ------------- 
